@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaDevolucao</class>
+ <widget class="QDialog" name="TelaDevolucao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1069</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CPF CLIENTE:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxCpf">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>40</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMostrarLocacoesEmAberto">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>40</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MOSTRAR LOCAÇÕES EM ABERTO</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidgetListagem">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>150</y>
+     <width>831</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID LOCAÇÃO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>FOTO VEÍCULO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PLACA VEÍCULO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MODELO VEÍCULO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MARCA VEÍCULO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DATA LOCAÇÃO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DATA DEVOLUÇÃO(ESTIMADA)</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VALOR ESTIMADO</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DATA DEVOLUCÃO (dd/mm/aaaa):</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditMesDataDevolucao">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>110</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAnoDataDevolucao">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>110</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditDiaDataDevolucao">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>110</y>
+     <width>31</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCalcularValorReal">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>30</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CALCULAR VALOR REAL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>30</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>R$</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelValor">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>30</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonConcluirDevolucao">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>90</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONCLUIR DEVOLUÇÃO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancelar">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>90</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CANCELAR/VOLTAR</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>comboBoxCpf</tabstop>
+  <tabstop>pushButtonMostrarLocacoesEmAberto</tabstop>
+  <tabstop>lineEditDiaDataDevolucao</tabstop>
+  <tabstop>lineEditMesDataDevolucao</tabstop>
+  <tabstop>lineEditAnoDataDevolucao</tabstop>
+  <tabstop>pushButtonCalcularValorReal</tabstop>
+  <tabstop>pushButtonConcluirDevolucao</tabstop>
+  <tabstop>pushButtonCancelar</tabstop>
+  <tabstop>tableWidgetListagem</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

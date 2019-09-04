@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>telaGerenciarMarca</class>
+ <widget class="QDialog" name="telaGerenciarMarca">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetListagem">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>301</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Foto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Descricao</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCadastrarMarca">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>121</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cadastrar Marca</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAlterar">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>30</y>
+     <width>83</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Alterar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonDeletar">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>30</y>
+     <width>83</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Deletar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonVoltar">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>10</y>
+     <width>83</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Voltar</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButtonCadastrarMarca</tabstop>
+  <tabstop>pushButtonAlterar</tabstop>
+  <tabstop>pushButtonDeletar</tabstop>
+  <tabstop>pushButtonVoltar</tabstop>
+  <tabstop>tableWidgetListagem</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

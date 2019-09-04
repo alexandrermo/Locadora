@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaLocacao</class>
+ <widget class="QDialog" name="TelaLocacao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetListagem">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>741</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>FOTO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PLACA</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MODELO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MARCA</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VALOR DIÁRIA</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>QUILOMETRAGEM</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VEÍCULOS DISPONÍVEIS:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CPF CLIENTE:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxCpf">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>30</y>
+     <width>201</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DATA LOCAÇÃO (dd/mm/aaaa):</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditDiaDataLocacao">
+   <property name="geometry">
+    <rect>
+     <x>231</x>
+     <y>101</y>
+     <width>31</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditMesDataLocacao">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>100</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAnoDataLocacao">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>100</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DATA DEVOLUCÃO (dd/mm/aaaa):</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditDiaDataDevolucao">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>140</y>
+     <width>31</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditAnoDataDevolucao">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>140</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditMesDataDevolucao">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>140</y>
+     <width>41</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCalcularValor">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>10</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CALCULAR VALOR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>10</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>R$</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelValor">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>10</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonConcluirLocacao">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>60</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CONCLUIR LOCAÇÃO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCancelar">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>60</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CANCELAR/VOLTAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOrdenarPorModelo">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>230</y>
+     <width>221</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ORDENAR POR MODELO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtoOrdenarPorMarca">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>280</y>
+     <width>221</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ORDENAR POR MARCA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOrdenarPorValor">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>330</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ORDENAR POR VALOR DIÁRIA</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOrdenarPorQuilometragem">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>370</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ORDENAR POR QUILOMETRAGEM</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>comboBoxCpf</tabstop>
+  <tabstop>lineEditDiaDataLocacao</tabstop>
+  <tabstop>lineEditMesDataLocacao</tabstop>
+  <tabstop>lineEditAnoDataLocacao</tabstop>
+  <tabstop>lineEditDiaDataDevolucao</tabstop>
+  <tabstop>lineEditMesDataDevolucao</tabstop>
+  <tabstop>lineEditAnoDataDevolucao</tabstop>
+  <tabstop>tableWidgetListagem</tabstop>
+  <tabstop>pushButtonCalcularValor</tabstop>
+  <tabstop>pushButtonConcluirLocacao</tabstop>
+  <tabstop>pushButtonCancelar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

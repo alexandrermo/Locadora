@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaGerenciarClientes</class>
+ <widget class="QDialog" name="TelaGerenciarClientes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>979</width>
+    <height>467</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetListagem">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>110</y>
+     <width>741</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>FOTO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>NOME</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CPF</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TIPO RELACIONAMENTO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TELEFONE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>E-MAIL</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CNH</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCadastrarNovoCliente">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>171</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CADASTRAR NOVO CLIENTE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonApagar">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>APAGAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAlterar">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ALTERAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonVoltar">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>10</y>
+     <width>83</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Voltar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOrdenarPorNome">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ORDENAR POR NOME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonOrdenarPorRelacionamento">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ORDENAR POR RELACIONAMENTO</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButtonCadastrarNovoCliente</tabstop>
+  <tabstop>pushButtonApagar</tabstop>
+  <tabstop>pushButtonAlterar</tabstop>
+  <tabstop>pushButtonVoltar</tabstop>
+  <tabstop>tableWidgetListagem</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

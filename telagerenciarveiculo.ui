@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaGerenciarVeiculo</class>
+ <widget class="QDialog" name="TelaGerenciarVeiculo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>351</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetListagem">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>821</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>FOTO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PLACA</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MODELO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MARCA</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SITUAÇÃO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VALOR DIÁRIA</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>QUILOMETRAGEM</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCadastrarNovoVeculo">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>161</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CADASTRAR NOVO VEÍCULO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonApagar">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>APAGAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonAlterar">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ALTERAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonVoltar">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>83</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VOLTAR</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButtonCadastrarNovoVeculo</tabstop>
+  <tabstop>pushButtonApagar</tabstop>
+  <tabstop>pushButtonAlterar</tabstop>
+  <tabstop>pushButtonVoltar</tabstop>
+  <tabstop>tableWidgetListagem</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

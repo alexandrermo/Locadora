@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>telaHistoricoLocacoes</class>
+ <widget class="QDialog" name="telaHistoricoLocacoes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1183</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidgetListagem">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>781</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CPF CLIENTE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PLACA VEÍCULO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SITUAÇÃO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DATA LOCAÇÃO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DATA DEVOLUÇÃO</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VALOR TOTAL</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="labelClientes">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>90</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>TODOS CLIENTES:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>CPF CLIENTE:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxCpf">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>181</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonFiltrar">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>20</y>
+     <width>231</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FILTRAR SOMENTE DESTE CLIENTE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonMostrarTodos">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>20</y>
+     <width>221</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MOSTRAR TODOS OS CLIENTES</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
